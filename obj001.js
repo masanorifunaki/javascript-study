@@ -8,7 +8,8 @@ obj2.color = '緑';
 obj2['not an indentifier'] = 3;
 console.log(obj2['not an indentifier']);
 console.log(obj2['color']);
-// console.log(obj[color]); シングルコーテーションがないためプロパティにアクセスできずエラーとなる。
+// console.log(obj[color]); シンボルとして定義していないため
+// エラーとなる
 // ReferenceError: color is not defined
 // 有効な識別子でないプロパティを使う場合は[...]ブラケット表記を使い
 // プロパティ名を文字列で指定。
