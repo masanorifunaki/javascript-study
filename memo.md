@@ -1,3 +1,7 @@
+# JS学習メモ
+## 3.11
+
+```js
 'use strict';
 const obj = {};
 obj.color = '黄色';
@@ -45,3 +49,4 @@ console.log(obj);
 // オブジェクト型 Number String Booleanの使う目的
 // 特殊な値をプロパティとして記憶する
 // 関数（メソッド）という形で様々な機能を提供する。
+```
